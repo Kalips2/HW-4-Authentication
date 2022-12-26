@@ -9,11 +9,6 @@
 
 <body>
 <div class="container">
-    <%--<form action="/login" method="post">--%>
-    <%--    Login : <input type="text" name="login"/>--%>
-    <%--    Password : <input type="password" name="password"/>--%>
-    <%--    <input type="submit" value="Login"/>--%>
-    <%--</form>--%>
     <form action="/login" method="post">
         <div class="form-group">
             <label for="exampleInputEmail1">Login</label>

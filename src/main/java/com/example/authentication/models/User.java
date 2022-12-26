@@ -1,4 +1,4 @@
-package com.example.authentication.model;
+package com.example.authentication.models;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -10,6 +10,10 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
+/**
+ * Model of user. Contains all information about him.
+ * In our application Login act as Id.
+ * */
 public class User {
   String name;
   String login;

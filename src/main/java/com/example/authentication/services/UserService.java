@@ -1,10 +1,9 @@
 package com.example.authentication.services;
 
-import com.example.authentication.model.User;
+import com.example.authentication.models.User;
 import java.util.List;
-import java.util.Optional;
 
-public interface LoginService {
+public interface UserService {
   boolean validateUser(String login, String password);
   User getUserById(String login);
   List<User> getAllUsers();
